@@ -5,6 +5,7 @@ logging.basicConfig(level=logging.INFO)
 project_name='MLprojects'
 list_of_files=[
     f"src/{project_name}/__init__.py",
+     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/components/data_ingestion.py",
     f"src/{project_name}/components/data_transformatiom.py",
     f"src/{project_name}/components/model_trainer.py",
