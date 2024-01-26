@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learing%20Project/ML1/mlruns/0/c41f45db17e44d4aa8b00907ada4a55a/artifacts
+end_time: 1706298964029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c41f45db17e44d4aa8b00907ada4a55a
+run_name: treasured-owl-805
+run_uuid: c41f45db17e44d4aa8b00907ada4a55a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706298958541
+status: 3
+tags: []
+user_id: root
