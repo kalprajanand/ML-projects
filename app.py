@@ -1,5 +1,8 @@
 from src.MLprojects.logger import logging
 from src.MLprojects.exception import CustomException
+from src.MLprojects.components.data_ingestion import DataIngestion 
+from src.MLprojects.components.data_ingestion import DataIngestionConfig 
+
 import sys
 
 if __name__=="__main__":
@@ -8,8 +11,11 @@ if __name__=="__main__":
     
     
     try:
-        a=1/0 
-    except Exception as e:
+        ##data_ingestion_config=DataIngestionConfig()
+        data_ingestion=DataIngestion()
+        data_ingestion.initiate_data_ingestion()
+        
+    except Exception as ex:
         logging.info("custom Exception")
-        raise CustomException(e,sys)
+        raise CustomException(ex,sys)
         
